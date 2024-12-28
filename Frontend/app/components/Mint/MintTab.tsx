@@ -47,7 +47,7 @@ const SwapTab = ({amountOne, setAmountOne, addressOne, addressTwo, setAddressOne
                   <SelectContent>
                     <SelectItem value="0x650ADf6aA8b4e5764273E7f2001B2A3f792859a5">APT</SelectItem>
                     <SelectItem value="0xc04229AC77a2A66c52Cc9cB09dCEfE9e89d47bFa">CHT</SelectItem>
-                    <SelectItem value="0x472f5f362B237C1E9C0d77E5E4589C0f64Ee2170">WEDU</SelectItem>
+                    <SelectItem value="0xAA4CA018D432b66c65c85467FEb08036B860362d">WCORE</SelectItem>
                   </SelectContent>
                           </Select>
                         </div>

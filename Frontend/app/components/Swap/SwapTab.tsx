@@ -48,7 +48,7 @@ const SwapTab = ({amountOne, amountTwo, setAmountOne, setAmountTwo, addressOne, 
                   <SelectContent>
                     <SelectItem value="0x650ADf6aA8b4e5764273E7f2001B2A3f792859a5">APT</SelectItem>
                     <SelectItem value="0x1b5619EB448B3C5F1E44CcD4Ef5e1813A53E98fF">CHT</SelectItem>
-                    <SelectItem value="0xE3426B959F2178525Beb3875B129eEdDBC95058c">WEDU</SelectItem>
+                    <SelectItem value="0xAA4CA018D432b66c65c85467FEb08036B860362d">WCORE</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
@@ -70,7 +70,7 @@ const SwapTab = ({amountOne, amountTwo, setAmountOne, setAmountTwo, addressOne, 
                   <SelectContent>
                     <SelectItem value="0x650ADf6aA8b4e5764273E7f2001B2A3f792859a5">APT</SelectItem>
                     <SelectItem value="0x1b5619EB448B3C5F1E44CcD4Ef5e1813A53E98fF">CHT</SelectItem>
-                    <SelectItem value="0xE3426B959F2178525Beb3875B129eEdDBC95058c">WEDU</SelectItem>
+                    <SelectItem value="0xAA4CA018D432b66c65c85467FEb08036B860362d">WCORE</SelectItem>
                   </SelectContent>
                 </Select>
               </div>

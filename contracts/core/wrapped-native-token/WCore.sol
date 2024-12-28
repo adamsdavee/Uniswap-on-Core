@@ -3,7 +3,7 @@ pragma solidity ^0.8.20;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
-contract WrappedEduToken is ERC20 {
+contract WrappedCoreToken is ERC20 {
     constructor() ERC20("WrappedEdu", "WEDU") {}
 
     // function deposit(uint256 amount) public payable {

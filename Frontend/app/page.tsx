@@ -45,28 +45,6 @@ export default function RefinedDEXInterface() {
   const [addressOne, setAddressOne] = useState("");
   const [addressTwo, setAddressTwo] = useState("");
 
-  const chain = defineChain(1115);
-
-
-  const contract = getContract({
-    client,
-    address: "0xb7e2979167e46A03Cf44171c349945D7041B6C2D",
-    chain: chain,
-  });
-
-  const { mutate: sendTransaction } = useSendTransaction();
-
-  
-
-  const Mint = async (address: string, amount: bigint) => {
-    const approve = prepareContractCall({
-      contract,
-      method: "function mint(address to, uint256 amount)",
-      params: [address, amount], // type safe params
-    });
-    sendTransaction(approve);
-  };
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-50 to-purple-50 text-gray-900">
       <div className="container mx-auto px-4 py-8">
